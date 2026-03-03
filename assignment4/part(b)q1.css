@@ -1,0 +1,26 @@
+/* 1️⃣ Background + padding to ONLY direct child list items */
+section > ul > li {
+    background-color: lightblue;
+    padding: 10px;
+}
+
+/* 2️⃣ Border to ALL descendant list items inside section */
+section li {
+    border: 2px solid black;
+}
+
+/* 3️⃣ Change text color of list items that immediately follow another */
+li + li {
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+

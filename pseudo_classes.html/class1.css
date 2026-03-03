@@ -1,0 +1,63 @@
+p{
+    color: red;
+}
+
+p::before{
+    content: " 😁";
+}
+
+div{
+    border : 2px solid red;
+    height : 400px;
+    width : 700px;
+    margin: 20px auto;
+}
+span{
+    background-color: yellow;
+    color: red;   
+    padding: 4px;
+}
+button{
+  border: 2px solid black;
+  display: block;
+  margin: 20px auto;
+}
+
+button:hover{
+    background-color: blue;
+    color: white;
+}
+
+button{
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: gray;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease;   /* IMPORTANT */
+}
+
+button:active{
+    background-color: green;
+    transform: scale(0.9);
+}
+
+.checkbox:checked{
+    outline: 2px solid;
+}
+.show{
+    display: none;
+}
+
+.none{
+    display: none;
+ }
+ .hidden{
+    visibility: hidden;
+ }
+
+
+ .hidden:first-child{
+    display: none;
+ }

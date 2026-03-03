@@ -1,0 +1,45 @@
+
+a {
+    margin: 15px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+a[target] {
+    border: 2px solid black;
+    background-color: lightyellow;
+}
+
+
+a[href^="https"] {
+    color: blue;
+    padding: 8px;
+}
+
+div {
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,39 @@
+/* Margin for all list items */
+li {
+    margin: 8px;
+}
+
+/* Background color for fruit */
+li[data-type="fruit"] {
+    background-color: lightcoral;
+}
+
+/* Border + padding for elements containing 'veg' */
+li[data-type*="veg"] {
+    border: 2px solid green;
+    padding: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

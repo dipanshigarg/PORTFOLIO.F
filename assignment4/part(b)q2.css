@@ -1,0 +1,17 @@
+/* 1️⃣ Padding for ALL paragraphs inside div */
+div p {
+    padding: 10px;
+}
+
+/* 2️⃣ Margin + border ONLY for paragraph immediately after heading */
+h2 + p {
+    margin: 15px;
+    border: 2px solid black;
+}
+
+/* 3️⃣ Background color for ALL general sibling paragraphs */
+h2 ~ p {
+    background-color: lightgray;
+}
+
+
